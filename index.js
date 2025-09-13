@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Routes de base
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur l’API Gestion de Repas');
+    res.send('Bienvenue sur l\'API Gestion des Repas');
 });
 
 app.listen(port, () => {
