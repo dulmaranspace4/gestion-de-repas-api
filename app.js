@@ -7,5 +7,5 @@ app.use(express.json());
 app.use('/api/recipes', recipeRoutes);
 
 app.listen(port, () => {
-    console.log(`API en fonctionnement sur http://localhost:${port}`);
+    console.log(`API is running at http://localhost:${port}`);
 });
